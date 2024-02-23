@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: green; /* Set header background color to green */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: red; /* Set navigation background color to red */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 20px;
+  }
+  
+  /* Image styles */
+  section img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent whitespace below images */
+    margin: 0 auto 20px; /* Add bottom margin for spacing */
+  }
+  
+  /* Additional styling for specific sections */
+  
+  /* Home section */
+  #home img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Culture, Food, and Travel sections */
+  #culture img,
+  #food img,
+  #travel img {
+    width: 100%; /* Ensure all images have the same width */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: green; /* Set footer background color to green */
+    padding: 20px;
+    text-align: center;
+  }
+  .little-pic {
+    width: 1000px;
+    height: 1000px;
+    
+ }
+  
